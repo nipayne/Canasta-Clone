@@ -197,7 +197,7 @@ class Card:
 
 # Shuffles all of the cards in the draw pile.  While any number of decks can be used, the default is 10.
 def createDecks():
-    suiteSheet = pygame.image.load('C:/Users/Nick_Payne/Desktop/cards.png').convert()
+    suiteSheet = pygame.image.load('path_to_file').convert()
     suiteWidth = suiteSheet.get_width() / 4
     suitsImg = []
     for s in range(4):
